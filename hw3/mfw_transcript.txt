@@ -1,0 +1,18 @@
+C:\workspace_courses\ece508\venv\Scripts\python.exe C:/workspace_courses/ece508/mfw.py
+this is some text that is using
+the word is a lot of times.
+What is the word most frequently used?
+
+Most Frequent Word: is (used 4 times)
+
+Process finished with exit code 0
+
+C:\workspace_courses\ece508\venv\Scripts\python.exe C:/workspace_courses/ece508/mfw.py
+apples and banannas
+banannas and apples
+
+Most Frequent Word: apples (used 2 times)
+Most Frequent Word: and (used 2 times)
+Most Frequent Word: banannas (used 2 times)
+
+Process finished with exit code 0

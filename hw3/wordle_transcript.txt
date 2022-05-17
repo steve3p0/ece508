@@ -1,0 +1,25 @@
+C:\workspace_courses\ece508\venv\Scripts\python.exe C:/workspace_courses/ece508/wordle.py
+Guess: apple
+1: apple +..**
+Guess: zatle
+2: zatle .*+**
+Guess: tamle
+3: tamle **.**
+Guess: table
+YES!
+
+Process finished with exit code 0
+
+
+C:\workspace_courses\ece508\venv\Scripts\python.exe C:/workspace_courses/ece508/wordle.py
+Guess: airplane
+need a 5 letter guess
+Guess: airpl
+1: airpl +.+..
+Guess: chart
+2: chart ..+*.
+Guess: foody
+3: foody .....
+Sorry, too many guesses
+
+Process finished with exit code 0

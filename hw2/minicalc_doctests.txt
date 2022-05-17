@@ -1,0 +1,113 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\workspace_courses\ece508> python -m doctest -v minicalc.py
+Trying:                                                   
+    calculate(operator='add', operands=[45, 500, 5, -111])
+Expecting:                                                
+    439                                                   
+ok                                          
+Trying:                                     
+    calculate(operator='%', operands=[9, 2])
+Expecting:                                  
+    1
+ok
+Trying:
+    calculate(operator='sin', operands=[6])
+Expecting:
+    -0.27941549819892586
+ok
+Trying:
+    calculate(operator='cos', operands=[1])
+Expecting:
+    0.5403023058681398
+ok
+Trying:
+    calculate(operator='xyz', operands=[1])
+Expecting:
+    Traceback (most recent call last):
+     ...
+    NameError: 'xyz' unknown function.
+ok
+Trying:
+    calculate(operator='add', operands=[1])
+Expecting:
+    1
+ok
+Trying:
+    calculate(operator='%', operands=[9, 0])
+Expecting:
+    Traceback (most recent call last):
+     ...
+    ZeroDivisionError: integer division or modulo by zero
+ok
+Trying:
+    calculate(operator='add', operands=None)
+Expecting:
+    0
+ok
+Trying:
+    calculate(operator='add', operands=['blah', 'blah'])
+Expecting:
+    Traceback (most recent call last):
+     ...
+    TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+ok
+Trying:
+    calculate()
+Expecting:
+    Traceback (most recent call last):
+     ...
+    TypeError: calculate() missing 2 required positional arguments: 'operator' and 'operands'
+ok
+Trying:
+    print(help())
+Expecting:
+    Minicalc is a mini-calculator that provides functions for add, %, sin, and cos.
+    To get help on a specific command, type "help [command name]".
+ok
+Trying:
+    print(help('add'))
+Expecting:
+    add: this function adds multiple numbers together.
+    Example: add 45 500 5 -111
+    The result should be: 439
+ok
+Trying:
+    print(help('%'))
+Expecting:
+    %: this function is the modulus function.
+    Example: 13 % 10
+    The result should be: 3
+ok
+Trying:
+    print(help('sin'))
+Expecting:
+    sin: this function is the sine trigonometric function.
+    Example: sin 1
+    The result should be: 0.841
+ok
+Trying:
+    print(help('cos'))
+Expecting:
+    cos: this function is the cosine trigonometric function.
+    Example: cos 1
+    The result should be: 0.540
+ok
+Trying:
+    print(help('xyz'))
+Expecting:
+    xyz: unknown function.
+ok
+1 items had no tests:
+    minicalc
+2 items passed all tests:
+  10 tests in minicalc.calculate
+   6 tests in minicalc.help
+16 tests in 3 items.
+16 passed and 0 failed.
+Test passed.
+PS C:\workspace_courses\ece508> 
+

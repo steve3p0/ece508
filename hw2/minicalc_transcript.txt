@@ -1,0 +1,42 @@
+C:\workspace_courses\ece508\venv\Scripts\python.exe C:/workspace_courses/ece508/minicalc.py
+
+mc> help
+Minicalc is a mini-calculator that provides functions for add, %, sin, and cos.
+To get help on a specific command, type "help [command name]".
+
+mc> help add
+add: this function adds multiple numbers together.
+Example: add 45 500 5 -111
+The result should be: 439
+
+mc> help %
+%: this function is the modulus function.
+Example: 13 % 10
+The result should be: 3
+
+mc> help sin
+sin: this function is the sine trigonometric function.
+Example: sin 1
+The result should be: 0.841
+
+mc> help cos
+cos: this function is the cosine trigonometric function.
+Example: cos 1
+The result should be: 0.540
+
+
+mc> add 45 500 5 -111
+439
+
+mc> % 9 2
+1
+
+mc> sin 6
+-0.27941549819892586
+
+mc> cos 1
+0.5403023058681398
+
+mc> exit
+
+Process finished with exit code 0

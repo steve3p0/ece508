@@ -1,0 +1,20 @@
+C:\workspace_courses\ece508\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm 2020.3.3\plugins\python\helpers\pycharm\_jb_unittest_runner.py" --target test_card_deck.TestCardDeck.test_integration
+Testing started at 4:21 AM ...
+Launching unittests with arguments python -m unittest test_card_deck.TestCardDeck.test_integration in C:\workspace_courses\ece508
+
+
+
+Ran 1 test in 0.088s
+
+OK
+
+Process finished with exit code 0
+2022-05-02 04:21:54
+user: steve
+2022-05-02 04:21:54
+hand: [('Club', '8'), ('Spade', 'Ace')]
+available: True
+available: True
+remaining cards: []
+deck count: 0
+deck count: 52
